@@ -2,8 +2,51 @@
   height: auto;
   max-width: 15%;            
   margin-right: 10px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 h1 {
   font-size: 48px;
+  color: #ff6f61;
+}
+
+div, body {
+  text-align: center;
+  color: #2c2c2c;
+  background-color: #fde4a6;
+}
+
+#styling {
+  margin: auto;            
+  width: 20%;                
+  background-color: #ffcccb;
+  padding: 1em;
+  border-radius: 8px;
+}
+
+h3 {
+  font-size: 2em;
+  color: #ffa07a;
+}
+
+label {
+  padding-right: 0.5em;
+  color: #e9967a;
+}
+
+button {
+  border-radius: 0.5em;
+  border-color: #ff7f50;
+  background-color: #ffa07a;
+  color: #fff;
+  margin-right: 1em;
+  margin-left: 1em;
+  margin-top: 2em;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff6347;
 }
