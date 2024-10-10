@@ -5,7 +5,7 @@ import OrderForm from './OrderForm';
 function App() {
     return (
         <>
-            <ComponentUI image="/sunset.jpg" title="Welcome to the product page!" />
+            <ComponentUI image="/sunset.jpg" title="Welcome to  product page!" />
             <OrderForm />
         </>
     );

@@ -1,6 +1,6 @@
-#componentImage{
+#componentImage {
   height: auto;
-  max-width: 15%;            
+  max-width: 15%;
   margin-right: 10px;
   border-radius: 50%;
   object-fit: cover;
@@ -18,17 +18,19 @@ div, body {
 }
 
 #styling {
-  margin: auto;            
-  width: 20%;                
+  margin: auto;
+  width: 35%; 
   background-color: #ffcccb;
   padding: 1em;
   border-radius: 8px;
+  border: 2px solid #ff7f50;
 }
 
 h3 {
   font-size: 2em;
   color: #ffa07a;
 }
+
 
 label {
   padding-right: 0.5em;
@@ -49,4 +51,27 @@ button {
 
 button:hover {
   background-color: #ff6347;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  background-color: #fff;
+}
+
+table th, table td {
+  border: 1px solid #ff7f50;
+  padding: 0.5em;
+  text-align: center;
+  color: #2c2c2c;
+}
+
+table th {
+  background-color: #ffa07a;
+  color: #fff;
+}
+
+table td {
+  background-color: #ffebeb;
 }
