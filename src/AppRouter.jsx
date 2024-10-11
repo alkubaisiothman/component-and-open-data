@@ -1,7 +1,6 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import OpenData from './OpenData'; // Oletetaan, että OpenData on komponenttisi
-import Home from './Home'; // Voit lisätä kotisivun tai muita komponentteja
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import OpenData from "./OpenData";
+import Home from "./Home";
 
 const AppRouter = () => {
     return (
