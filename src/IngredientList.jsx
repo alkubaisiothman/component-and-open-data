@@ -1,16 +1,16 @@
 import React from 'react';
 
 const IngredientList = ({ data }) => {
+    if (!data) return null; // Tarkistetaan, että data on olemassa
+
+    const ingredients = Object.keys(data)
+        .filter(key => key.startsWith('strIngredient') && data[key]) // Suodatetaan vain ainesosat
+
     return (
-        <div>
-            <h3>Ingredients:</h3>
-            <ul>
-                {Object.keys(data)
-                    .filter(key => key.startsWith('strIngredient') && data[key]) 
-                    .map((key, index) => (
-                        <li key={index}>{data[key]}</li>
-                    ))}
-            </ul>
+        <div id="ingredientList">
+            {ingredients.map((ingredient, index) => (
+                <div key={index}>{data[ingredient]}</div>
+            ))}
         </div>
     );
 };

@@ -75,3 +75,14 @@ table th {
 table td {
   background-color: #ffebeb;
 }
+#ingredientList {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ff6f61;
+  border-radius: 8px;
+  color: #2c2c2c;
+  text-align: center;
+  display: inline-block; 
+}
+
+
