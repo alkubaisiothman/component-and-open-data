@@ -6,7 +6,7 @@ const IngredientList = ({ data }) => {
             <h3>Ingredients:</h3>
             <ul>
                 {Object.keys(data)
-                    .filter(key => key.startsWith('strIngredient') && data[key]) // Suodatetaan vain ainesosat
+                    .filter(key => key.startsWith('strIngredient') && data[key]) 
                     .map((key, index) => (
                         <li key={index}>{data[key]}</li>
                     ))}
