@@ -56,6 +56,7 @@ const OpenData = () => {
 
     return (
         <div>
+            <h1>Welcome to Open Data Page</h1>
             <form onSubmit={handleSearch}>
                 <input
                     type="text"
