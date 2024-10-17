@@ -1,56 +1,61 @@
 #componentImage {
   height: auto;
-  max-width: 15%;
-  margin-right: 10px;
-  border-radius: 50%;
+  max-width: 20%;
+  margin-right: 15px;
+  border-radius: 8px;
   object-fit: cover;
+  vertical-align: middle;
+  border: 2px solid #333;
 }
 
 h1 {
-  font-size: 48px;
-  color: #ff6f61;
+  font-size: 36px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 div, body {
   text-align: center;
   color: #2c2c2c;
-  background-color: #fde4a6;
+  background-color: #f4f4f4;
 }
 
 #styling {
   margin: auto;
-  width: 35%; 
-  background-color: #ffcccb;
-  padding: 1em;
-  border-radius: 8px;
-  border: 2px solid #ff7f50;
+  width: 60%;
+  background-color: #f0f0f0;
+  padding: 2em;
+  border-radius: 12px;
+  border: 2px solid #007acc;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
 }
 
 h3 {
-  font-size: 2em;
-  color: #ffa07a;
+  font-size: 1.5em;
+  color: #007acc;
 }
-
 
 label {
   padding-right: 0.5em;
-  color: #e9967a;
+  color: #555;
 }
 
 button {
   border-radius: 0.5em;
-  border-color: #ff7f50;
-  background-color: #ffa07a;
+  border: 2px solid #007acc;
+  background-color: #007acc;
   color: #fff;
-  margin-right: 1em;
-  margin-left: 1em;
-  margin-top: 2em;
-  padding: 0.5em 1em;
+  margin: 1em;
+  padding: 0.7em 1.5em;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #ff6347;
+  background-color: #0396ff;
 }
 
 table {
@@ -60,27 +65,28 @@ table {
   background-color: #fff;
 }
 
-table th, table td {
-  border: 1px solid #ff7f50;
+table.tb th, table.tb td {
+  border: 1px solid #007acc;
   padding: 0.5em;
   text-align: center;
   color: #2c2c2c;
 }
 
-table th {
-  background-color: #ffa07a;
+table.tb th {
+  background-color: #007acc;
   color: #fff;
 }
 
-table td {
-  background-color: #ffebeb;
+table.tb td {
+  background-color: #f9f9f9;
 }
+
 #ingredientList {
   margin-top: 20px;
   padding: 10px;
-  background-color: #ff6f61;
+  background-color: #e6f7ff;
   border-radius: 8px;
-  color: #2c2c2c;
+  color: #333;
   text-align: center;
   display: inline-block; 
 }
@@ -89,16 +95,15 @@ table td {
   display: inline-block;
   margin: 10px;
   padding: 10px 20px;
-  background-color: #ffa07a; 
+  background-color: #007acc;
   color: #fff; 
   text-decoration: none; 
   border-radius: 0.5em; 
-  border: 2px solid #ff7f50;
+  border: 2px solid #007acc;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 .link-button:hover {
-  background-color: #ff6347; 
-  color: #2c2c2c; 
+  background-color: #005999; 
 }
