@@ -1,10 +1,10 @@
 import React from 'react';
 
 const IngredientList = ({ data }) => {
-    if (!data) return null; // Tarkistetaan, että data on olemassa
+    if (!data) return null;
 
     const ingredients = Object.keys(data)
-        .filter(key => key.startsWith('strIngredient') && data[key]) // Suodatetaan vain ainesosat
+        .filter(key => key.startsWith('strIngredient') && data[key]) 
 
     return (
         <div id="ingredientList">
